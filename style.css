@@ -448,6 +448,29 @@ h5 {
     padding: 0% 13%;
 }
 
+#register,
+#deposit,
+#trade {
+    background-size: contain;
+    background-repeat: no-repeat;
+    color: aliceblue;
+}
+
+#register {
+    background-image: url(./images2/05/Shapes/Union.png);
+    padding: 3% 5% 3% 2%;
+}
+
+#deposit {
+    background-image: url(./images2/05/Shapes/Union-1.png);
+    padding: 2% 5% 3% 5%;
+}
+
+#trade {
+    background-image: url(./images2/05/Shapes/Union-2.png);
+    padding: 2% 2% 3% 5%;
+}
+
 
 /* autumn Css  */
 
@@ -845,6 +868,26 @@ section {
         line-height: 28px;
         margin: -8px 0px 10px;
     }
+    #register h2,
+    #deposit h2,
+    #trade h2 {
+        font-size: 18px;
+        margin-bottom: 2px;
+    }
+    #register p,
+    #deposit p,
+    #trade p {
+        font-size: 14px;
+        margin-bottom: 0px;
+        line-height: 16px;
+    }
+    #register,
+    #deposit {
+        padding-top: 1%;
+    }
+    #trade {
+        padding-top: 0.5%;
+    }
 }
 
 @media only screen and (max-width: 600px) {
@@ -994,7 +1037,10 @@ section {
     }
     #sec5-col,
     #sec5-col2,
-    #sec5-col3 {
+    #sec5-col3,
+    #register,
+    #deposit,
+    #trade {
         width: 100%;
     }
     #sec5row2 {
@@ -1004,6 +1050,21 @@ section {
     #homesec1-trust,
     .homesec1cont h1 {
         display: none;
+    }
+    #homesec5-2 {
+        flex-direction: column;
+        padding: 0% 2% 2% 2%;
+    }
+    #register {
+        background-size: auto;
+        padding: 8% 11% 6% 15%;
+        background-position: right;
+    }
+    #deposit {
+        padding: 2% 9% 6% 9%;
+    }
+    #trade {
+        padding: 3% 5% 10% 11%;
     }
 }
 
